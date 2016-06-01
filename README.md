@@ -17,7 +17,6 @@ Install steps
 ####建立一個虛擬安裝環境（使用的virtualenv可以避免很多麻煩的問題）：      
 `brew update`      
 `brew install cmake`      
- 
 `sudo easy_install pip`      
 `sudo pip install virtualenv`      
       
@@ -29,13 +28,12 @@ Install steps
       
 ####接著安裝libgpuarray，這樣Theano才能支持OpenCL：      
 `cd libgpuarray`      
- 
 `mkdir build`      
 `cd build`      
 `cmake ..`      
 `make`      
 `make install`      
- 
+      
 `cd ..`      
 `export CPATH=$CPATH:/usr/local/include`      
 `export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib`      
