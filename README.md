@@ -14,7 +14,7 @@ Install steps
 `sudo easy_install pip`      
 `sudo pip install virtualenv`      
 
-####建立一個虛擬安裝環境（使用的virtualenv可以避免很多麻煩的問題）：      
+####建立一個虛擬安裝環境（使用virtualenv可以避免很多麻煩的問題）-> optional：     
 `brew update`      
 `brew install cmake`      
 `sudo easy_install pip`      
