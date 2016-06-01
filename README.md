@@ -47,3 +47,8 @@ Install steps
 `THEANO_FLAGS=mode=FAST_RUN,device=opencl0:0,floatX=float32 python test_theano.py`
 * 使用GPU      
 `THEANO_FLAGS=mode=FAST_RUN,device=opencl0:1,floatX=float32 python test_theano.py`
+
+
+
+######Reference:
+http://codechina.org/2016/04/how-to-install-theano-on-mac-os-x-ei-caption-with-opencl-support/
