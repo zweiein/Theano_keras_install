@@ -33,7 +33,7 @@ Install steps
 `cmake ..`      
 `make`      
 `make install`      
-      
+
 `cd ..`      
 `export CPATH=$CPATH:/usr/local/include`      
 `export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib`      
@@ -42,7 +42,7 @@ Install steps
 `sudo python setup.py install`      
 
 
-#### 使用下列指令切換CPU/GPU執行
+####使用下列指令切換CPU/GPU執行
 * 使用CPU      
 `THEANO_FLAGS=mode=FAST_RUN,device=opencl0:0,floatX=float32 python test_theano.py`
 * 使用GPU      
