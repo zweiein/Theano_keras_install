@@ -3,9 +3,9 @@ How to install Theano & Keras on Mac
 
 Requirements
 ----
-Only work on OS X EI Capitan (version 10.11.1)      
-Home brew
-
+* Only work on OS X EI Capitan (version 10.11.1)      
+* Home brew
+    
 Install steps
 ---
 
