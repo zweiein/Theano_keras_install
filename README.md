@@ -23,6 +23,9 @@ Install steps
       
 ####安裝Theano      
 `sudo pip install Theano`      
+
+####如果mac上用pip安裝的package讀不到，用這個指令裝：
+`python -m pip install <pkg>`
       
 ####可以用test.py測試Theano的安裝是否成功      
 `python test_theano.py`      
