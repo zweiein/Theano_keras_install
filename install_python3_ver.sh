@@ -11,3 +11,4 @@ sudo pip3 install keras
 
 # keras needs scipy!
 sudo apt-get build-dep python3-scipy
+sudo pip3 install numpy scipy
