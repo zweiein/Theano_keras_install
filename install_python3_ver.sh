@@ -9,4 +9,4 @@ sudo pip3 install theano
 sudo pip3 install keras
 
 # keras needs scipy!
-sudo apt-get install python-numpy python-scipy python-matplotlib ipython ipython-notebook python-pandas python-sympy python-nose
+sudo apt-get build-dep python3-scipy
